@@ -724,6 +724,14 @@
       <Project>{D0C1EFD8-2835-3EC5-E0F2-26AF34F8B373}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
+    <ProjectReference Include="MeshBakerCore.csproj">
+      <Project>{E9FB07E3-203D-BBA1-A034-8F4ADB2AD504}</Project>
+      <Name>MeshBakerCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="MeshBakerEditor.csproj">
+      <Project>{48ECBEF2-6E0B-A629-605E-EB1A8BC3F86B}</Project>
+      <Name>MeshBakerEditor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
